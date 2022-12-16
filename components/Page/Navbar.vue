@@ -36,7 +36,7 @@ const menus = computed((): IMenuItem[] => {
 
 <template>
   <BuilderNavbar>
-    <template #banner>
+    <!-- <template #banner>
       <div
         class="text-white text-xs text-center py-1 px-4 lg:px-8 bg-primary-500 capitalize"
       >
@@ -49,7 +49,7 @@ const menus = computed((): IMenuItem[] => {
           />
         </span>
       </div>
-    </template>
+    </template> -->
     <template #menu>
       <div class="relative hidden lg:flex items-center ml-auto">
         <nav
